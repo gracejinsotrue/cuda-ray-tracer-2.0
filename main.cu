@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ctime>
+#include <time.h>
 //main.cu more like overkill.cu 
 
 //**every CUDA API call returns an error code, we check cudaError_t result with a checkCudaErrors macro to output the error to stdout 
