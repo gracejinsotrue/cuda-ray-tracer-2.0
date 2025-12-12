@@ -42,7 +42,7 @@ public:
     float e[3];
 };
 
-__host__ __device__ inline std::istream &operator>>(std::istream &is, vec3 &t)
+std::istream &operator>>(std::istream &is, vec3 &t)
 {
     is >> t.e[0] >> t.e[1] >> t.e[2];
     return is;
