@@ -21,3 +21,5 @@ public:
 };
 
 #endif
+// TODO: make sure t hat floating point constants must be appended w/f or else all constants will become
+//  DOUBLE and then math on gpu hurts performnace womp womp
